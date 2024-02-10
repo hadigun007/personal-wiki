@@ -10,7 +10,7 @@
 
 ---
 
-### Api Security Standart
+### Api Security Standard
 
 1. **Encryption | TLS** <br>
     Be cryptic. Nothing should be in the clear for internal or external communicatoins.encryption will convert your information into code, this will make much more difficult for sensitive data end up with wrong hands. <br> You and your partners should chiper all exchanges with TLS , wheter it is one way encryption  or, even better, mutual encryption . Use the latest TLS version to block the usage of the weakes chiper suites.
