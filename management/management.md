@@ -4,7 +4,7 @@
 
 ### Topics
 
-- [Product Management](./product_management.md)
+- [Become a Product Manager](./product_management.md)
 - Contract Management
     - [The essential guide on how to create a contract](#the-essential-guide-on-how-to-create-a-contract)
 - Risk Management
