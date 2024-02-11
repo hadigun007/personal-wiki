@@ -28,4 +28,4 @@
 - If there something wrong in the product, you can blame the product manager\
 
 **2. Whats is Product**
-- sc
+- A product is any items or service you sell to serve a customer's need or want. They can be physical or virtual. source [https://www.quora.com/What-is-a-product-in-product-management](https://www.quora.com/What-is-a-product-in-product-management)
