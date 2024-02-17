@@ -7,10 +7,11 @@
 - Web Security
 - Cryptography
 - [Api Security Standart](#api-security-standart) 
+- [What is public key infrastucture and how its works?]()
 
 ---
 
-### Api Security Standard
+## Api Security Standard
 
 1. **Encryption | TLS** <br>
     Be cryptic. Nothing should be in the clear for internal or external communicatoins.encryption will convert your information into code, this will make much more difficult for sensitive data end up with wrong hands. <br> You and your partners should chiper all exchanges with TLS , wheter it is one way encryption  or, even better, mutual encryption . Use the latest TLS version to block the usage of the weakes chiper suites.
@@ -108,6 +109,89 @@
 
 
 src: [API Security: 12 Best Practices Everyone Should Implement](https://blog.axway.com/learning-center/digital-security/keys-oauth/api-security-best-practices)
+
+
+----
+
+## What is public key infrastucture and how its works?
+PKI, or public key infrastructure, encompases everything used to established and manage public key encryption. This includes software, hardware, policies and procedures that are used to create, ditribute, manage, store and revoke digital certificates.
+
+A digital certificate cryptoghrapicly links a public key with thw devices or user who owns it, this helps to autheticate users and devices and ensure secure digital communications.
+
+PKI is one of the most common form of internet encryption. and it use to secure and authenticate traffic between web browser and web server. it can also be used to secure access to connected devices and internal communications within an organization. 
+
+Public key infrastructure has a long story of securing and authenticating digital communications with two main goals: to ensure the privacy if the message being sent to verify that sender is who they claim to be.
+
+
+**What is Public key infrastructure (PKI)?**
+
+Public key infrastructure is important aspect of internet security. it is the set of technology and process that make up a framework of encryption to protect and authenticate digital communications.
+
+PKI uses cryptographic public keys that are connected to a digital certificate, which authenticates the devieces or user sending the digital communication, Digital certificates are issued by a trusted source, a certifcate authority (CA), and act as type of digital passport to ensure that is who they say they are.
+
+Public key infrastructure protects and authenticates communications between server and users, such as between your website(hosted on your browser) and your clients (the user trying to connect through their browser). It can also be used for secure communication within an organization and to ensure that the messages are only visible to the sender and receipent, and they have not been tampered with in transit.
+
+The main components of public key infrastructure include the following:
+
+- **Certifite authority (CA)**: The CA is trusted entity that issues, stores, and signs the digital certificate. The CA signs the digital certificate with their own private key and then publishes the public key that can be accessed  upon request.
+- **Registration authority (RA)**: The RA verifies the identity of the user or device requesting the digital certificate. This can be third party , or the CA can also act as the RA
+- **Certificate database**: This database store the digital certificates and its metadata, which includes how long the certificate is valid
+- **Central direcory**: This is the secure location where the cryptographic keys are indexed and stored.
+- **Certificate management system**: This is system for managing the delivery of certificate as well access to them.
+- **Certificate policy**: This policy outlines the procedure of the PKI. It can be ised by outsiders to determine the PKI's trustworhiness.
+
+
+
+**Understanding how PKI works**
+Public key infrastructure uses asymetric encryption methods to ensure the message remainprovatee and also authenticate the device or user sending the transmission.
+
+Asymetric encryption involves the use of public and private key. A cryptographic key is a long string of bits used to encrypt data.
+
+The public key is available to anyone who request it and is issued by a trusted certificate authority. This public key verifies and authenticates the sender of the digital message and used to decrypt the transmission.
+
+Complex algorithms are used to encrypt and decrypt public/private key pairs. The public key authenticates the sender of the digitaal message, while the private key ensure that only the receipient can open and read it.
+
+
+**PKI Certificates**
+
+The core of public key infrastructure is trust. its important for receipient entity to know without a doubt that the sender to the digital certificate is exactly who they claim to be.
+
+Trusted third party CAs can vouch for the sender and help to prove that they are indeed who they say they are. Digital certificates are used to verify digital identities.
+
+Digital certificates are alo called PKI ertificates or X.509 certificates. A PKI certificate offers proof of identity to a requesting entity, which is verified by a third party and works like a digital passport or driver's license.
+
+The PKI certificate will contain the following:
+
+- Distinguished name (DN) of the owner
+- Owner public key
+- Date of issuance
+- Expiration date\- DN of issuing CA
+- Issuing CAs digital signature
+
+**Why is PKI used?**
+
+One of the common uses of PKI is the TLS/SSL (Transport layer security/ secure socket layer), which secures encrypted HTTP (hypertext transport protocol) communications.
+
+Websites owners will obtain a digital certificate from a trusted CA. The owner of the website will have to prove that they are indeed the actual owner. Once verified, the website owner can purchase an SSL certificate to install on the web server. This tells the browser that it is the legitimate website the browser is trying to access.
+
+The TLS/SSL protocol relies on a chain of trust, where the user has to trust the root- certificate granting authority. An alternative schemes is the web of trust , which is use self signed certificates thate are validated by a third party. Web of trust is often used in smaller communities of users, such as within an organizations's self-contained network.
+
+Additional uses for PKI include the following:
+
+- Email encryption and authenticate of the sender
+- Signing documents an software
+- Using database servers to secure internal communications 
+- Securing web communications, such as e-commerce
+- authentication and encryption doccuments 
+- Securing local networks and smart card authentication
+- Encrypting and decrypting files
+- Restricted access to VPNs and enterprise intranets
+- Secure communications mutually trusted devices such as IoT (Internet of Things) devices
+
+
+
+
+src: [What is public key infrastucture and how its works?](https://www.okta.com/identity-101/public-key-infrastructure/)
 
 ---
 <p style="color: grey">created by <b  style="color:white">Hadi Gunawan @2023</b></p>

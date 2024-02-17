@@ -14,12 +14,12 @@
 
 ----
 
-### Secure Against What?
+## Secure Against What?
 
 > **Anything insecure is what necessarily uncontrolled,**\
 > **Everything is secure necessarily controlled**
 
-The pain of insecurity:
+### The pain of insecurity:
 - Somebody knows something you wish 
 - Interception
 - We most segregate who know stuff and who don't
@@ -28,8 +28,10 @@ The pain of insecurity:
 - Two pillars of security
 - Provenance - where (and who) something came from
 
+### Encoding, Decoding and Serialization
+- **Encoding**: The process of converting message in ordinary language, or other information into a secret form that cannot be interpreted without knowing the secret method for interpretation, called the key.
 
-### Version control and seecurity
-### Secure coding practices
-### Storing data securely
-### Knowing the attacks: The OWASP top ten in 2021 
+## Version control and security
+## Secure coding practices
+## Storing data securely
+## Knowing the attacks: The OWASP top ten in 2021 
