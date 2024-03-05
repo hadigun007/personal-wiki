@@ -11,7 +11,7 @@
 - Typescript
 - Golang
 - Python
-- [Solidity](./blockhcain/blockchain.md)
+- [Solidity](./solidity.md)
 
 
 
