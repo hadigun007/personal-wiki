@@ -5,6 +5,7 @@
 ### Topics
 
 - [Visibility](#visibility)
+- [Reserved Keywords](#reserved-keywords)
 - [Data Type](#data-type)
     - [Value Type](#value-type)
     - [Reference Type](#reference-type)
@@ -35,6 +36,11 @@
     }
     ```
 
+
+## Reserved Keywords
+These keywords are reserved in Solidity. They might become part of the syntax in the future:
+
+```after```, ```alias```, ```apply```, ```auto```, ```byte```, ```case```, ```copyof```, ```default```, ```define```, ```final```, ```implements```, ```in```, ```inline```, ```let```, ```macro```, ```match```, ```mutable```, ```null```, ```of```, ```partial```, ```promise```, ```reference```, ```relocatable```, ```sealed```, ```sizeof```, ``static``, ```supports```, ```switch```, ```typedef```, ```typeof```, ```var```.
 
 ## Data Type
 Solidity is a statically typed language, which means that the type of each variable (state and local) needs to be specified. Solidity provides several elementary types which can be combined to form complex types.
