@@ -6,6 +6,7 @@
 
 - [Visibility](#visibility)
 - [Reserved Keywords](#reserved-keywords)
+- [Mutability]
 - [Data Type](#data-type)
     - [Value Type](#value-type)
     - [Reference Type](#reference-type)
@@ -41,6 +42,12 @@
 These keywords are reserved in Solidity. They might become part of the syntax in the future:
 
 ```after```, ```alias```, ```apply```, ```auto```, ```byte```, ```case```, ```copyof```, ```default```, ```define```, ```final```, ```implements```, ```in```, ```inline```, ```let```, ```macro```, ```match```, ```mutable```, ```null```, ```of```, ```partial```, ```promise```, ```reference```, ```relocatable```, ```sealed```, ```sizeof```, ``static``, ```supports```, ```switch```, ```typedef```, ```typeof```, ```var```.
+
+
+## Mutability
+- **```pure```**: The `pure` specifier indicates that a function does not read or modify the contract’s state. It is entirely deterministic and solely operates on its input parameters. This specifier is useful for functions that perform complex computations or transformations without interacting with the blockchain.
+- **```view```**: The `view` specifier denotes that a function does not modify the contract’s state but can read from it. This is a read-only function and is commonly used for querying data from the blockchain. It is a cost-effective way to retrieve information without incurring gas fees.
+
 
 ## Data Type
 Solidity is a statically typed language, which means that the type of each variable (state and local) needs to be specified. Solidity provides several elementary types which can be combined to form complex types.
