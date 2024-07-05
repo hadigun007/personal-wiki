@@ -6,3 +6,4 @@
 
 - Design System
 - Scalability
+- Redis
